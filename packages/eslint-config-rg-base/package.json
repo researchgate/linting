@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-rg-base",
+  "name": "@researchgate/eslint-config-rg-base",
   "version": "0.0.0",
   "description": "ResearchGate's ESLint base config",
   "main": "index.js",
