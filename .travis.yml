@@ -4,7 +4,10 @@ node_js:
   - "7"
   - "6"
 cache: yarn
-before_install: yarn global add greenkeeper-lockfile@1
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - export PATH="$HOME/.yarn/bin:$PATH"
+  - yarn global add greenkeeper-lockfile@1
 before_script:
   - greenkeeper-lockfile-update
   - 'if [ -n "$TRAVIS_CI" ]; then yarn run create-github-release; fi'
