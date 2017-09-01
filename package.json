@@ -10,7 +10,7 @@
     "find-unused-rules:react": "eslint-find-rules -u packages/eslint-config-rg-react/index.js",
     "format": "eslint --fix .",
     "lint": "eslint .",
-    "publish": "npm-s lint && lerna publish --conventional-commits"
+    "publish": "run-s lint && lerna publish --conventional-commits"
   },
   "devDependencies": {
     "conventional-github-releaser": "^1.1.12",
