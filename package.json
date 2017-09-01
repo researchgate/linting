@@ -4,18 +4,20 @@
     "packages/*"
   ],
   "scripts": {
+    "create-github-release": "conventional-github-releaser -p angular",
     "find-unused-rules:base": "eslint-find-rules -u packages/eslint-config-rg-base/index.js",
     "find-unused-rules:node": "eslint-find-rules -u packages/eslint-config-rg-node/index.js",
     "find-unused-rules:react": "eslint-find-rules -u packages/eslint-config-rg-react/index.js",
     "format": "eslint --fix .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "lerna publish --conventional-commits"
   },
   "devDependencies": {
+    "conventional-github-releaser": "^1.1.12",
     "eslint": "^4.5.0",
     "eslint-find-rules": "^3.1.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-prettier": "^2.2.0",
-    "lerna": "^2.1.2",
-    "publish": "lerna publish --conventional-commits"
+    "lerna": "^2.1.2"
   }
 }
