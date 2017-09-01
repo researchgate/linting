@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    extends: 'rg-base',
+    extends: '@researchgate/eslint-config-rg-base',
     plugins: ['node'],
     rules: {
         'node/no-deprecated-api': 'error',
