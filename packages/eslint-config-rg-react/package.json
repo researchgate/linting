@@ -17,7 +17,7 @@
   "author": "Daniel Tschinder <daniel.tschinder@researchgate.net>",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-rg-base": "^0.1.0",
+    "@researchgate/eslint-config-rg-base": "^0.1.0",
     "eslint-plugin-react": "^7.3.0"
   }
 }
