@@ -10,6 +10,8 @@
 
 ## Getting started
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/researchgate/linting.svg)](https://greenkeeper.io/)
+
 This repository contains multiple packages
 
 * [eslint-config-rg-base](./packages/eslint-config-rg-base) - Base javascript linting config including prettier
