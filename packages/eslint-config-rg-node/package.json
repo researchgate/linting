@@ -1,6 +1,6 @@
 {
   "name": "@researchgate/eslint-config-rg-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ResearchGate's ESLint config for NodeJS",
   "main": "index.js",
   "repository": {
