@@ -105,6 +105,7 @@ module.exports = {
         'no-throw-literal': 'error',
         'no-trailing-spaces': 'error',
         'no-underscore-dangle': 'error',
+        'no-unneeded-ternary': ['error', { defaultAssignment: false }],
         'no-use-before-define': 'error',
         'no-useless-concat': 'error',
         'no-useless-constructor': 'error',
