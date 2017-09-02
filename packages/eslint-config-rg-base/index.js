@@ -117,6 +117,7 @@ module.exports = {
         'padded-blocks': ['error', 'never'],
         'prefer-arrow-callback': 'error',
         'prefer-const': 'error',
+        'prefer-template': 'error',
         'prettier/prettier': [
             'error',
             {
