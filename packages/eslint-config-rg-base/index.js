@@ -114,6 +114,7 @@ module.exports = {
         'no-with': 'error',
         'object-curly-spacing': ['error', 'always'],
         'one-var': ['error', 'never'],
+        'padded-blocks': ['error', 'never'],
         'prefer-arrow-callback': 'error',
         'prefer-const': 'error',
         'prettier/prettier': [
