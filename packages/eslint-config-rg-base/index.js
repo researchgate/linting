@@ -101,6 +101,7 @@ module.exports = {
         'no-script-url': 'error',
         'no-sequences': 'error',
         'no-shadow': 'error',
+        'no-shadow-restricted-names': 'error',
         'no-throw-literal': 'error',
         'no-trailing-spaces': 'error',
         'no-underscore-dangle': 'error',
