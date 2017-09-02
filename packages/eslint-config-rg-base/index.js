@@ -103,6 +103,7 @@ module.exports = {
         'no-underscore-dangle': 'error',
         'no-use-before-define': 'error',
         'no-useless-constructor': 'error',
+        'no-var': 'error',
         'no-with': 'error',
         'object-curly-spacing': ['error', 'always'],
         'prefer-arrow-callback': 'error',
