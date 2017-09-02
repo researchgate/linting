@@ -1,0 +1,23 @@
+{
+  "name": "@researchgate/eslint-config-rg-node-babel",
+  "version": "0.2.0",
+  "description": "ResearchGate's ESLint config for NodeJS with babel",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/researchgate/linting"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "researchgate",
+    "javascript"
+  ],
+  "author": "Daniel Tschinder <daniel.tschinder@researchgate.net>",
+  "license": "MIT",
+  "dependencies": {
+    "@researchgate/eslint-config-rg-node": "^0.2.0",
+    "eslint-plugin-node": "^5.1.1"
+  }
+}
