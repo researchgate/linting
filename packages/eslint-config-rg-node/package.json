@@ -1,6 +1,6 @@
 {
   "name": "@researchgate/eslint-config-rg-node",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "ResearchGate's ESLint config for NodeJS",
   "main": "index.js",
   "repository": {
@@ -17,7 +17,7 @@
   "author": "Daniel Tschinder <daniel.tschinder@researchgate.net>",
   "license": "MIT",
   "dependencies": {
-    "@researchgate/eslint-config-rg-base": "^0.2.0",
+    "@researchgate/eslint-config-rg-base": "^0.3.0",
     "eslint-plugin-node": "^5.1.1"
   }
 }
