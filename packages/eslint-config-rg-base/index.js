@@ -106,6 +106,7 @@ module.exports = {
         'no-trailing-spaces': 'error',
         'no-underscore-dangle': 'error',
         'no-use-before-define': 'error',
+        'no-useless-concat': 'error',
         'no-useless-constructor': 'error',
         'no-var': 'error',
         'no-with': 'error',
