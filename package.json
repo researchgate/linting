@@ -5,6 +5,9 @@
   ],
   "scripts": {
     "create-github-release": "conventional-github-releaser -p angular",
+    "eslint-check:base": "eslint --print-config packages/eslint-config-rg-base/index.js | eslint-config-prettier-check",
+    "eslint-check:node": "eslint --print-config packages/eslint-config-rg-node/index.js | eslint-config-prettier-check",
+    "eslint-check:react": "eslint --print-config packages/eslint-config-rg-react/index.js | eslint-config-prettier-check",
     "find-unused-rules:base": "eslint-find-rules -u packages/eslint-config-rg-base/index.js",
     "find-unused-rules:node": "eslint-find-rules -u packages/eslint-config-rg-node/index.js",
     "find-unused-rules:react": "eslint-find-rules -u packages/eslint-config-rg-react/index.js",
@@ -22,5 +25,8 @@
     "lerna": "^2.1.2",
     "npm-run-all": "^4.1.1",
     "prettier": "^1.6.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^2.4.0"
   }
 }

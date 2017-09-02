@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    extends: '@researchgate/eslint-config-rg-base',
+    extends: ['@researchgate/eslint-config-rg-base', 'prettier/react'],
     plugins: ['react'],
     rules: {
         'import/no-nodejs-modules': ['error', { allow: 'events' }],
