@@ -4,6 +4,7 @@ module.exports = {
     extends: '@researchgate/eslint-config-rg-base',
     plugins: ['react'],
     rules: {
+        'import/no-nodejs-modules': ['error', { allow: 'events' }],
         'react/jsx-boolean-value': 'error',
         'react/jsx-curly-spacing': ['error', 'never'],
         'react/jsx-equals-spacing': 'error',
