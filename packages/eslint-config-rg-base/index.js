@@ -7,7 +7,6 @@ module.exports = {
     rules: {
         camelcase: 'error',
         'consistent-return': 'error',
-        curly: ['error', 'multi-line'],
         'dot-notation': ['error', { allowKeywords: true }],
         eqeqeq: ['error', 'always', { null: 'ignore' }],
         'guard-for-in': 'error',
