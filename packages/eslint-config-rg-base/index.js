@@ -14,6 +14,7 @@ module.exports = {
                 ignoreComments: false,
             },
         ],
+        'arrow-body-style': 'off',
         'array-bracket-spacing': ['error', 'never'],
         'brace-style': ['error', '1tbs', { allowSingleLine: true }],
         camelcase: 'error',
