@@ -113,6 +113,7 @@ module.exports = {
         'no-var': 'error',
         'no-with': 'error',
         'object-curly-spacing': ['error', 'always'],
+        'one-var': ['error', 'never'],
         'prefer-arrow-callback': 'error',
         'prefer-const': 'error',
         'prettier/prettier': [
