@@ -37,5 +37,7 @@ module.exports = {
     },
     env: {
         browser: true,
+        commonjs: true,
+        'shared-node-browser': true,
     },
 };
