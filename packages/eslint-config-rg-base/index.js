@@ -70,6 +70,7 @@ module.exports = {
         'no-eval': 'error',
         'no-extend-native': 'error',
         'no-extra-bind': 'error',
+        'no-floating-decimal': 'error',
         'no-implied-eval': 'error',
         'no-iterator': 'error',
         'no-lone-blocks': 'error',
