@@ -14,7 +14,5 @@ before_script:
   - 'if [[ -n "$TRAVIS_TAG" ]] && [[ "$TRAVIS_JOB_NUMBER" == *.1 ]]; then yarn run create-github-release || true; fi'
 script:
   - yarn run lint
-  - yarn run eslint-check:base
-  - yarn run eslint-check:node
-  - yarn run eslint-check:react
+  - yarn run test
 after_script: greenkeeper-lockfile-upload

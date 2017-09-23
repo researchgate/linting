@@ -15,6 +15,7 @@
     "find-unused-rules:react": "eslint-find-rules -u packages/eslint-config-rg-react/index.js",
     "format": "eslint --fix .",
     "lint": "eslint .",
+    "test": "run-s eslint-check:*",
     "publish": "run-s lint && lerna publish --conventional-commits"
   },
   "devDependencies": {
