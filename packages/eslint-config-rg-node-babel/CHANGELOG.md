@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/researchgate/linting/compare/v1.0.0...v1.0.1) (2017-09-23)
+
+
+### Bug Fixes
+
+* **prettier:** Require eslint-plugin-prettier >= 2.3.0 for config support ([89150d0](https://github.com/researchgate/linting/commit/89150d0))
+
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/researchgate/linting/compare/v0.3.0...v1.0.0) (2017-09-23)
 
