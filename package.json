@@ -16,7 +16,7 @@
     "format": "eslint --fix .",
     "lint": "eslint .",
     "test": "run-s eslint-check:*",
-    "publish": "run-s lint && lerna publish --conventional-commits"
+    "release": "run-s lint && lerna publish --conventional-commits"
   },
   "devDependencies": {
     "conventional-github-releaser": "^1.1.12",
