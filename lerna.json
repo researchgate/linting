@@ -8,5 +8,6 @@
         "*.md"
       ]
     }
-  }
+  },
+  "useWorkspaces": true
 }
