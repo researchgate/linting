@@ -37,7 +37,7 @@ module.exports = {
         'no-eval': 'error',
         'no-extend-native': 'error',
         'no-extra-bind': 'error',
-        'no-floating-decimal': 'error',
+        'no-floating-decimal': 'off',
         'no-implied-eval': 'error',
         'no-iterator': 'error',
         'no-labels': 'error',
