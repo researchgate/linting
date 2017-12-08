@@ -6,8 +6,6 @@ module.exports = {
     rules: {
         'import/no-nodejs-modules': ['error', { allow: 'events' }],
         'react/jsx-boolean-value': 'error',
-        'react/jsx-curly-spacing': ['error', 'never'],
-        'react/jsx-equals-spacing': 'error',
         'react/jsx-handler-names': 'error',
         'react/jsx-key': 'error',
         'react/jsx-no-bind': [
