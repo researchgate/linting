@@ -5,6 +5,7 @@ module.exports = {
     plugins: ['react'],
     rules: {
         'import/no-nodejs-modules': ['error', { allow: 'events' }],
+        'react/display-name': 'error',
         'react/jsx-boolean-value': 'error',
         'react/jsx-handler-names': 'error',
         'react/jsx-key': 'error',
@@ -26,11 +27,13 @@ module.exports = {
         'react/no-deprecated': 'error',
         'react/no-direct-mutation-state': 'error',
         'react/no-multi-comp': 'error',
+        'react/no-string-refs': 'error',
         'react/no-unescaped-entities': 'error',
         'react/no-unknown-property': 'error',
         'react/prefer-es6-class': 'error',
         'react/prop-types': ['error', { ignore: ['dispatch'] }],
         'react/react-in-jsx-scope': 'error',
+        'react/require-render-return': 'error',
         'react/self-closing-comp': 'error',
     },
     env: {
