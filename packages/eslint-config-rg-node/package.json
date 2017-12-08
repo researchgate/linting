@@ -20,6 +20,7 @@
     "@researchgate/eslint-config-rg-base": "^1.0.1"
   },
   "peerDependencies": {
+    "eslint": "^4.12.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-node": "^5.2.1",
