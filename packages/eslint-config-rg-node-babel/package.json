@@ -20,10 +20,10 @@
     "@researchgate/eslint-config-rg-node": "^1.0.1"
   },
   "peerDependencies": {
-    "eslint-config-prettier": "^2.4.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-prettier": "^2.3.0",
-    "prettier": "^1.6.1"
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.9.1"
   }
 }

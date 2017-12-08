@@ -19,5 +19,9 @@ This repository contains multiple packages
 
 ## Contributing
 
+### Requirements
+
+* yarn >= 1.0.0
+
 This is a repository very specific to ResearchGates needs for internal and open source projects. You are free to copy it and modify it, but
 we will most likely not accept pull requests from outside ResearchGate.
