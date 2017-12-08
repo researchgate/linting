@@ -29,7 +29,7 @@ module.exports = {
         'react/no-unescaped-entities': 'error',
         'react/no-unknown-property': 'error',
         'react/prefer-es6-class': 'error',
-        'react/prop-types': ['warn', { ignore: ['dispatch'] }],
+        'react/prop-types': ['error', { ignore: ['dispatch'] }],
         'react/react-in-jsx-scope': 'error',
         'react/self-closing-comp': 'error',
     },
