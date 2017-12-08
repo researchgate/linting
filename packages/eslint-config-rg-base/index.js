@@ -4,6 +4,9 @@ module.exports = {
     parserOptions: { ecmaVersion: 2017 },
     extends: ['eslint:recommended', 'prettier'],
     plugins: ['prettier', 'import'],
+    settings: {
+        'import/extensions': ['.js'],
+    },
     rules: {
         camelcase: 'error',
         'consistent-return': 'error',
