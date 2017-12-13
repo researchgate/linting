@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/researchgate/linting/compare/v1.0.1...v2.0.0) (2017-12-13)
+
+
+### Bug Fixes
+
+* **deps:** Add missing peer dependency on eslint ([f2b43d2](https://github.com/researchgate/linting/commit/f2b43d2))
+* **lint:** correctly set sourceType in all configs ([ecb126e](https://github.com/researchgate/linting/commit/ecb126e))
+* **package:** Ensure latest versions of plugins are required. ([ca5cc3f](https://github.com/researchgate/linting/commit/ca5cc3f))
+
+
+### BREAKING CHANGES
+
+* **package:** Requires newer versions of peer dependencies.
+
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/researchgate/linting/compare/v1.0.0...v1.0.1) (2017-09-23)
 
