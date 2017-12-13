@@ -74,6 +74,7 @@ module.exports = {
         'no-underscore-dangle': 'error',
         'no-unneeded-ternary': ['error', { defaultAssignment: false }],
         'no-use-before-define': 'error',
+        'no-unused-vars': ['error', { ignoreRestSiblings: true }],
         'no-useless-concat': 'error',
         'no-useless-constructor': 'error',
         'no-var': 'error',
