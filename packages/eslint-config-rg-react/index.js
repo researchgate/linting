@@ -7,7 +7,7 @@ module.exports = {
     rules: {
         'import/no-nodejs-modules': ['error', { allow: 'events' }],
         'react/display-name': 'error',
-        'react/jsx-boolean-value': 'error',
+        'react/jsx-boolean-value': ['error', 'always'],
         'react/jsx-handler-names': 'error',
         'react/jsx-key': 'error',
         'react/jsx-no-bind': [
