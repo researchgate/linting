@@ -33,7 +33,7 @@ module.exports = {
                 capIsNewExceptions: ['List', 'Map', 'Set', 'OrderedMap', 'OrderedSet'],
             },
         ],
-        'no-alert': 'off',
+        'no-alert': 'error',
         'no-caller': 'error',
         'no-dupe-keys': 'error',
         'no-else-return': 'error',
