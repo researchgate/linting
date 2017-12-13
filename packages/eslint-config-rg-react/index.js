@@ -2,6 +2,7 @@
 
 module.exports = {
     extends: ['@researchgate/eslint-config-rg-base', 'prettier/react'],
+    parserOptions: { sourceType: 'module' },
     plugins: ['react'],
     rules: {
         'import/no-nodejs-modules': ['error', { allow: 'events' }],

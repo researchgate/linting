@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    parserOptions: { ecmaVersion: 2017 },
+    parserOptions: { ecmaVersion: 2017, sourceType: 'script' },
     extends: ['eslint:recommended', 'prettier'],
     plugins: ['prettier', 'import'],
     settings: {

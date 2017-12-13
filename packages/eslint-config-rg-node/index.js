@@ -2,6 +2,7 @@
 
 module.exports = {
     extends: '@researchgate/eslint-config-rg-base',
+    parserOptions: { sourceType: 'script' },
     plugins: ['node'],
     rules: {
         'node/no-deprecated-api': 'error',
