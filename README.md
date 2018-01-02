@@ -12,10 +12,10 @@
 
 This repository contains multiple packages
 
-* [eslint-config-rg-base](./packages/eslint-config-rg-base) - Base javascript linting config including prettier
-* [eslint-config-rg-node](./packages/eslint-config-rg-node) - Base config plus extensions for NodeJS code
-* [eslint-config-rg-node-babel](./packages/eslint-config-rg-node-babel) - Base config plus extensions for NodeJS code with babel
-* [eslint-config-rg-react](./packages/eslint-config-rg-react) - Base config plus extensions for React code
+* [@researchgate/eslint-config-rg-base](./packages/eslint-config-rg-base) - Base javascript linting config including prettier
+* [@researchgate/eslint-config-rg-node](./packages/eslint-config-rg-node) - Base config plus extensions for NodeJS code
+* [@researchgate/eslint-config-rg-node-babel](./packages/eslint-config-rg-node-babel) - Base config plus extensions for NodeJS code with babel
+* [@researchgate/eslint-config-rg-react](./packages/eslint-config-rg-react) - Base config plus extensions for React code
 
 ## Contributing
 
