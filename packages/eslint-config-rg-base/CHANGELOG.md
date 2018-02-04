@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/researchgate/linting/compare/v2.0.0...v2.0.1) (2018-02-04)
+
+
+### Bug Fixes
+
+* **prettier:** Use local prettier config and add root test folders ([1076db4](https://github.com/researchgate/linting/commit/1076db4))
+
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/researchgate/linting/compare/v1.0.1...v2.0.0) (2017-12-13)
 
