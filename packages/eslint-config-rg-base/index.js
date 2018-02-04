@@ -21,7 +21,13 @@ module.exports = {
         'import/no-extraneous-dependencies': [
             'error',
             {
-                devDependencies: ['**/__tests__/**/*.js', '**/test/**/*.js', '**/tests/**/*.js'],
+                devDependencies: [
+                    '**/__tests__/**/*.js',
+                    '**/test/**/*.js',
+                    '**/tests/**/*.js',
+                    'test/**/*.js',
+                    'tests/**/*.js',
+                ],
                 optionalDependencies: false,
             },
         ],
@@ -83,20 +89,7 @@ module.exports = {
         'prefer-arrow-callback': 'error',
         'prefer-const': 'error',
         'prefer-template': 'error',
-        'prettier/prettier': [
-            'error',
-            {
-                bracketSpacing: true,
-                jsxBracketSameLine: false,
-                parser: 'babylon',
-                printWidth: 120,
-                semi: true,
-                singleQuote: true,
-                tabWidth: 4,
-                trailingComma: 'all',
-                useTabs: false,
-            },
-        ],
+        'prettier/prettier': 'error',
         'spaced-comment': [
             'error',
             'always',
