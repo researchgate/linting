@@ -6,10 +6,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/researchgate/linting/compare/v2.0.1...v3.0.0) (2018-02-05)
 
+### Features
 
-
-
-**Note:** Version bump only for package undefined
+* **node:** update dependency eslint-plugin-node to ^6.0.0 ([a16518e](https://github.com/researchgate/linting/commit/a16518e))
 
 <a name="2.0.1"></a>
 ## [2.0.1](https://github.com/researchgate/linting/compare/v2.0.0...v2.0.1) (2018-02-04)
