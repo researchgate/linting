@@ -41,6 +41,7 @@ module.exports = {
         ],
         'no-alert': 'error',
         'no-caller': 'error',
+        'no-cond-assign': 'error',
         'no-dupe-keys': 'error',
         'no-else-return': 'error',
         'no-eval': 'error',
@@ -57,6 +58,7 @@ module.exports = {
         'no-native-reassign': 'error',
         'no-nested-ternary': 'error',
         'no-new': 'error',
+        'no-new-func': 'error',
         'no-octal-escape': 'error',
         'no-proto': 'error',
         'no-restricted-imports': [
