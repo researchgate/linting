@@ -22,7 +22,7 @@
     "release": "run-s lint && lerna publish --conventional-commits"
   },
   "devDependencies": {
-    "conventional-github-releaser": "^2.0.0",
+    "conventional-github-releaser": "^3.0.0",
     "eslint": "^4.12.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-find-rules": "^3.1.1",
