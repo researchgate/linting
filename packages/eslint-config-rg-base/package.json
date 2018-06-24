@@ -17,7 +17,7 @@
   "author": "Daniel Tschinder <daniel.tschinder@researchgate.net>",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^4.12.1",
+    "eslint": "^5.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.3.1",
