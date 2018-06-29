@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/researchgate/linting/compare/v3.0.0...v4.0.0) (2018-06-29)
+
+
+### Bug Fixes
+
+* set npmClient=yarn in lerna.json ([#12](https://github.com/researchgate/linting/issues/12)) ([b45bfc7](https://github.com/researchgate/linting/commit/b45bfc7))
+
+
+### Features
+
+* **base:** Add `no-cond-assign` and `no-new-func` ([ff85fa1](https://github.com/researchgate/linting/commit/ff85fa1))
+* **deps:** update dependency eslint to v5 ([#14](https://github.com/researchgate/linting/issues/14)) ([798ac50](https://github.com/researchgate/linting/commit/798ac50))
+
+
+### BREAKING CHANGES
+
+* **deps:** Requires eslint v5
+* **base:** Add `no-cond-assign` and `no-new-func`
+
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/researchgate/linting/compare/v2.0.1...v3.0.0) (2018-02-05)
 

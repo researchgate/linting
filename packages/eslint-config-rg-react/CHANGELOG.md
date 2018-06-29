@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/researchgate/linting/compare/v3.0.0...v4.0.0) (2018-06-29)
+
+
+### Features
+
+* **deps:** update dependency eslint to v5 ([#14](https://github.com/researchgate/linting/issues/14)) ([798ac50](https://github.com/researchgate/linting/commit/798ac50))
+
+
+### BREAKING CHANGES
+
+* **deps:** Requires eslint v5
+
+
+
+
 <a name="2.0.1"></a>
 ## [2.0.1](https://github.com/researchgate/linting/compare/v2.0.0...v2.0.1) (2018-02-04)
 
