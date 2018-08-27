@@ -4,7 +4,7 @@
   "registry": "https://registry.npmjs.org/",
   "commands": {
     "publish": {
-      "ignore": ["*.md"]
+      "ignoreChanges": ["*.md"]
     }
   },
   "npmClient": "yarn",
