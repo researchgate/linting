@@ -2,7 +2,7 @@
   "lerna": "3.1.4",
   "version": "4.0.0",
   "registry": "https://registry.npmjs.org/",
-  "commands": {
+  "command": {
     "publish": {
       "ignoreChanges": ["*.md"]
     }
