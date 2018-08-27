@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/researchgate/linting/compare/v4.0.0...v5.0.0) (2018-08-27)
+
+**Note:** Version bump only for package @researchgate/eslint-config-rg-node
+
+
+
+
+
 <a name="4.0.0"></a>
 # [4.0.0](https://github.com/researchgate/linting/compare/v3.0.0...v4.0.0) (2018-06-29)
 
