@@ -1,12 +1,10 @@
 {
-  "lerna": "2.1.2",
+  "lerna": "3.1.4",
   "version": "4.0.0",
   "registry": "https://registry.npmjs.org/",
   "commands": {
     "publish": {
-      "ignore": [
-        "*.md"
-      ]
+      "ignore": ["*.md"]
     }
   },
   "npmClient": "yarn",
