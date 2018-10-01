@@ -1,6 +1,6 @@
 {
   "name": "@researchgate/eslint-config-rg-node-babel",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "ResearchGate's ESLint config for NodeJS with babel",
   "main": "index.js",
   "repository": {
@@ -17,7 +17,7 @@
   "author": "Daniel Tschinder <daniel.tschinder@researchgate.net>",
   "license": "MIT",
   "dependencies": {
-    "@researchgate/eslint-config-rg-node": "^5.0.0"
+    "@researchgate/eslint-config-rg-node": "^5.0.1"
   },
   "peerDependencies": {
     "eslint": "^5.0.0",
