@@ -22,11 +22,24 @@ module.exports = {
             'error',
             {
                 devDependencies: [
-                    '**/__tests__/**/*.js',
-                    '**/test/**/*.js',
-                    '**/tests/**/*.js',
-                    'test/**/*.js',
-                    'tests/**/*.js',
+                    // Test files
+                    '**/__tests__/**',
+                    '**/test/**',
+                    '**/tests/**',
+                    '**/*.spec.js',
+                    // Docs and examples
+                    '**/docs/**',
+                    '**/examples/**',
+                    // Development and build scripts
+                    '**/dev/**',
+                    '**/scripts/**',
+                    // Dot files
+                    '**/.*.js',
+                    // Config files
+                    '**/*.config.js',
+                    // Build files
+                    '**/gulpfile.js',
+                    '**/Gruntfile.js',
                 ],
                 optionalDependencies: false,
             },
